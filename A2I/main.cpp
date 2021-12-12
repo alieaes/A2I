@@ -1,3 +1,5 @@
+#include "stdafx.h"
+
 #include "A2I.h"
 #include <QtWidgets/QApplication>
 

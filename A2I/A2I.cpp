@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "A2I.h"
 
 A2I::A2I( QWidget* parent )

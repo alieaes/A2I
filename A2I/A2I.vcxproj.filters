@@ -21,6 +21,18 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="라이브러리">
+      <UniqueIdentifier>{f9eaf2d0-790d-4ec5-a659-5e677bdb10de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\공통 라이브러리">
+      <UniqueIdentifier>{407bd63d-cb4e-42dc-b0e2-914d21b84197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\공통 라이브러리\Logger">
+      <UniqueIdentifier>{ebf01e83-ccc0-46cf-9f22-610fd4b9c2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\공통 라이브러리\formatter">
+      <UniqueIdentifier>{86fc67f1-6049-4614-8c8d-16578e79d587}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="A2I.qrc">
@@ -40,5 +52,37 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\SharedLib\Logger\SharedLogger.cpp">
+      <Filter>라이브러리\공통 라이브러리\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLib\formatter\format.cc">
+      <Filter>라이브러리\공통 라이브러리\formatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLib\formatter\posix.cc">
+      <Filter>라이브러리\공통 라이브러리\formatter</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SharedLib\SharedLibInit.h">
+      <Filter>라이브러리\공통 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLib\Logger\SharedLogger.h">
+      <Filter>라이브러리\공통 라이브러리\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLib\SharedBase.h">
+      <Filter>라이브러리\공통 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLib\formatter\format.h">
+      <Filter>라이브러리\공통 라이브러리\formatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLib\formatter\posix.h">
+      <Filter>라이브러리\공통 라이브러리\formatter</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
