@@ -36,6 +36,9 @@
 
 A2I/x64/*
 *.db
+*.vcxproj.user
+*.user
+*.opendb
 *ipch
 x64/Debug/*
 x64/Release/*
